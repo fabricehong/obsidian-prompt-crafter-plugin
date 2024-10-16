@@ -1,0 +1,9 @@
+{
+	"id": "prompt-crafter-plugin",
+	"name": "PromptCrafter plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Create reusable, modular prompts in Obsidian",
+	"author": "Fabrice Hong",
+	"isDesktopOnly": false
+}
