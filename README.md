@@ -19,7 +19,7 @@ This turns your Obsidian vault into a powerful tool for managing and creating hi
 - If the resolved content is another ```pc``` block, this new ```pc``` block is resolved again using the frontmatter of the host note.
 
 ## Video
-![PromptCrafter Obsidian plugin demo](https://i.imgur.com/BSJpGv3.gif)
+[![PromptCrafter demo](https://img.youtube.com/vi/ElGq7xhjBEI/0.jpg)](https://www.youtube.com/watch?v=ElGq7xhjBEI)
 
 ## Examples
 **Step 1:**
