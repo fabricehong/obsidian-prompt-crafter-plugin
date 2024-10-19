@@ -6,3 +6,46 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* Error Modal */
+.error-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mod-cta {
+    /* Styles spécifiques pour le bouton 'OK' */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.mod-cta:hover {
+    background-color: #0056b3;
+}
+
+
+/* PC Block */
+
+/* Style pour les éléments 'pre' dans le bloc 'pc' */
+.pc-pre {
+    white-space: pre-wrap; /* Garde les sauts de ligne et espaces */
+}
+
+/* Autres styles qui pourraient être nécessaires */
+.plug-pc-tgmenu {
+    /* styles existants pour plug-pc-tgmenu */
+}
+
+.plug-pc-flex {
+    display: flex;
+}
+
+.plug-pc-justify-end {
+    justify-content: flex-end;
+}

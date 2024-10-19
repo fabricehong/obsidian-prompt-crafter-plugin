@@ -24,11 +24,8 @@ export class ErrorModal extends Modal {
 			this.close();
 		});
 
-		// Style optionnel pour améliorer l'apparence
-		contentEl.style.display = 'flex';
-		contentEl.style.flexDirection = 'column';
-		contentEl.style.alignItems = 'center';
-		contentEl.style.justifyContent = 'center';
+		// Ajouter une classe CSS au conteneur pour appliquer les styles définis
+		contentEl.addClass('error-modal-content');
 	}
 
 	onClose() {
