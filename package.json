@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-prompt-crafter-plugin",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "Create reusable, modular prompts in Obsidian",
 	"main": "main.js",
 	"scripts": {
