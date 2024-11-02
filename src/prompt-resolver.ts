@@ -27,7 +27,7 @@ export class PromptResolver {
 		// Récupère le cache du fichier actuel pour accéder au frontmatter
 		const fileCache = this.app.metadataCache.getFileCache(file);
 		if (!fileCache) {
-			throw new Error("Aucun cache de fichier trouvé.");
+			throw new Error("No cache file found.");
 		}
 		const frontmatter = fileCache.frontmatter || {};
 

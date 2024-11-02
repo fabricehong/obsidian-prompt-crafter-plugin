@@ -1,7 +1,6 @@
-import { Plugin } from 'obsidian';
+import { addIcon, Plugin } from 'obsidian';
 import PcBlock from "./pcBlock";
-
-// Remember to rename these classes and interfaces!
+import { buildPromptIcon } from "./icons";
 
 interface PromptCrafterPluginSettings {
 	mySetting: string;
@@ -16,6 +15,8 @@ export default class PromptCrafterPlugin extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
+
+		addIcon("build-prompt-icon", buildPromptIcon);
 
 		new PcBlock(this);
 	}

@@ -15,21 +15,6 @@ If your plugin does not need CSS, delete this file.
     justify-content: center;
 }
 
-.mod-cta {
-    /* Styles spécifiques pour le bouton 'OK' */
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.mod-cta:hover {
-    background-color: #0056b3;
-}
-
-
 /* PC Block */
 
 /* Style pour les éléments 'pre' dans le bloc 'pc' */
